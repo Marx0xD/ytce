@@ -72,10 +72,13 @@ section {
 }
 
 .nav-logo {
+  align-items: center;
   color: var(--parchment);
+  display: flex;
   font-family: var(--serif);
   font-size: 18px;
   font-weight: 500;
+  gap: 10px;
   letter-spacing: 0.04em;
   text-decoration: none;
   transition: color 0.3s;
@@ -85,8 +88,38 @@ section {
   color: var(--espresso);
 }
 
-.nav-logo span {
+.nav-logo-mark {
+  display: grid;
+  flex: 0 0 auto;
+  height: 42px;
+  place-items: center;
+  width: 42px;
+}
+
+.nav-logo-mark img {
+  display: block;
+  height: 46px;
+  max-width: none;
+  width: 46px;
+}
+
+.nav-logo-copy {
+  display: grid;
+  line-height: 1;
+}
+
+.nav-logo-copy span {
+  color: inherit;
+}
+
+.nav-logo-copy small {
   color: var(--gold);
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  margin-top: 5px;
+  text-transform: uppercase;
 }
 
 .nav-links {
@@ -1023,6 +1056,20 @@ footer {
 @media (max-width: 900px) {
   .site-nav {
     padding: 0 24px;
+  }
+
+  .nav-logo {
+    gap: 9px;
+  }
+
+  .nav-logo-mark {
+    height: 38px;
+    width: 38px;
+  }
+
+  .nav-logo-mark img {
+    height: 42px;
+    width: 42px;
   }
 
   .nav-links,

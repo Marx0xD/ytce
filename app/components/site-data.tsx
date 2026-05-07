@@ -1,9 +1,9 @@
 export const imageStrip = [
-  "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=500&q=75",
-  "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=500&q=75",
-  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&q=75",
-  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&q=75",
-  "https://images.unsplash.com/photo-1541167760496-1628856ab772?w=500&q=75",
+  "https://images.unsplash.com/photo-1762277142890-24902d58e8f0?auto=format&fit=crop&w=700&q=75",
+  "https://images.unsplash.com/photo-1741012253890-a62490e7ea3e?auto=format&fit=crop&w=700&q=75",
+  "https://images.unsplash.com/photo-1703646619157-eb553d16d402?auto=format&fit=crop&w=700&q=75",
+  "https://images.unsplash.com/photo-1558996260-4bac67dbd110?auto=format&fit=crop&w=700&q=75",
+  "https://images.unsplash.com/photo-1569718974246-7b898eae87d3?auto=format&fit=crop&w=700&q=75",
 ];
 
 export const trustStats = [
@@ -52,10 +52,9 @@ export const editorialBlocks = [
   },
   {
     id: "specialty",
-    image:
-      "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900&q=80",
-    alt: "Specialty coffee",
-    caption: "Specialty coffee - traceable Ethiopian origins",
+    image: "/images/greencoffee.jpg",
+    alt: "Coffee cherries growing at origin",
+    caption: "Specialty lots - traceable Ethiopian origins and distinctive cup profiles",
     eyebrow: "Our Coffee - Specialty",
     title: (
       <>
@@ -73,10 +72,9 @@ export const editorialBlocks = [
   },
   {
     id: "commercial",
-    image:
-      "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900&q=80",
-    alt: "Commercial coffee",
-    caption: "Commercial coffee - scalable supply solutions",
+    image: "/images/coffee-sack.jpg",
+    alt: "Green coffee beans in an export sack",
+    caption: "Commercial supply - scalable green coffee volumes for importers and roasters",
     eyebrow: "Our Coffee - Commercial",
     title: (
       <>

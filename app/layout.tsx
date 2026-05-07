@@ -9,6 +9,10 @@ export const metadata: Metadata = {
   title: "Yohanes Tesfaye Raw Coffee Export",
   description:
     "Premium Ethiopian green coffee export from Addis Ababa, Ethiopia.",
+  icons: {
+    icon: "/bg-removed-logo.png",
+    apple: "/bg-removed-logo.png",
+  },
 };
 
 export default function RootLayout({

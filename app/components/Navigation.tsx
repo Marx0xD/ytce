@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -26,7 +27,19 @@ export function Navigation() {
       aria-label="Primary navigation"
     >
       <Link href="/" className="nav-logo">
-        YTCE <span>.</span> Ethiopia
+        <span className="nav-logo-mark" aria-hidden="true">
+          <Image
+            src="/bg-removed-logo.png"
+            alt=""
+            width={56}
+            height={56}
+            priority
+          />
+        </span>
+        <span className="nav-logo-copy">
+          <span>Yohanes Tesfaye</span>
+          <small>Coffee Export</small>
+        </span>
       </Link>
       <ul className="nav-links">
         {navItems.map((item) => (
@@ -43,14 +56,7 @@ export function Navigation() {
           </li>
         ))}
       </ul>
-      <Link
-        href="/contact"
-        className="nav-cta"
-        onClick={() => setLastClickedHref("/contact")}
-        data-clicked={lastClickedHref === "/contact"}
-      >
-        Request Samples
-      </Link>
+
     </nav>
   );
 }

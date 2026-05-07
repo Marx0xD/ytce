@@ -2,7 +2,10 @@ import { imageStrip, trustStats } from "./site-data";
 
 export function ImageStrip() {
   return (
-    <div className="image-strip" aria-label="Coffee moments from origin to cup">
+    <div
+      className="image-strip"
+      aria-label="Coffee export supply chain from harvest to shipment"
+    >
       {imageStrip.map((image) => (
         <div
           key={image}

@@ -6,7 +6,7 @@ const contactDetails = [
   { label: "Phone", value: "0912502336" },
   { label: "WeChat", value: "Youhan1221" },
   { label: "Email", value: "jonitesfish21@gmail.com" },
-  { label: "LinkedIn", value: "0912502336" },
+  // { label: "LinkedIn", value: "0912502336" },
 ];
 
 export function ContactSection() {
