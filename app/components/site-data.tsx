@@ -1,9 +1,9 @@
 export const imageStrip = [
-  "https://images.unsplash.com/photo-1762277142890-24902d58e8f0?auto=format&fit=crop&w=700&q=75",
-  "https://images.unsplash.com/photo-1741012253890-a62490e7ea3e?auto=format&fit=crop&w=700&q=75",
-  "https://images.unsplash.com/photo-1703646619157-eb553d16d402?auto=format&fit=crop&w=700&q=75",
-  "https://images.unsplash.com/photo-1558996260-4bac67dbd110?auto=format&fit=crop&w=700&q=75",
-  "https://images.unsplash.com/photo-1569718974246-7b898eae87d3?auto=format&fit=crop&w=700&q=75",
+  "/images/optimized/about-origin-sourcing.webp",
+  "/images/optimized/quality-control.webp",
+  "/images/optimized/greencoffee.webp",
+  "/images/optimized/coffee-sack.webp",
+  "/images/optimized/right-hero-image.webp",
 ];
 
 export const trustStats = [
@@ -16,7 +16,7 @@ export const trustStats = [
 export const editorialBlocks = [
   {
     id: "about",
-    image: "/images/about-origin-sourcing.jpg.jpg",
+    image: "/images/optimized/about-origin-sourcing.webp",
     alt: "Coffee origin sourcing in Ethiopia",
     caption: "Ethiopian origin sourcing - farm and cooperative relationships",
     eyebrow: "About Us",
@@ -33,7 +33,7 @@ export const editorialBlocks = [
   },
   {
     id: "mission",
-    image: "/images/qualtiycontrol.jpg",
+    image: "/images/optimized/quality-control.webp",
     alt: "Green coffee quality control",
     caption: "Quality control - grading, inspection, and export readiness",
     eyebrow: "Leadership & Purpose",
@@ -52,7 +52,7 @@ export const editorialBlocks = [
   },
   {
     id: "specialty",
-    image: "/images/greencoffee.jpg",
+    image: "/images/optimized/greencoffee.webp",
     alt: "Coffee cherries growing at origin",
     caption: "Specialty lots - traceable Ethiopian origins and distinctive cup profiles",
     eyebrow: "Our Coffee - Specialty",
@@ -72,7 +72,7 @@ export const editorialBlocks = [
   },
   {
     id: "commercial",
-    image: "/images/coffee-sack.jpg",
+    image: "/images/optimized/coffee-sack.webp",
     alt: "Green coffee beans in an export sack",
     caption: "Commercial supply - scalable green coffee volumes for importers and roasters",
     eyebrow: "Our Coffee - Commercial",

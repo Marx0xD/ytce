@@ -192,12 +192,12 @@ section {
 }
 
 .hero-bg-left {
-  background-image: url("/images/left-hero-image.jpg");
+  background-image: url("/images/optimized/left-hero-image.webp");
   filter: brightness(0.45);
 }
 
 .hero-bg-right {
-  background-image: url("/images/right_hero_image.jpg");
+  background-image: url("/images/optimized/right-hero-image.webp");
   filter: brightness(0.38);
 }
 

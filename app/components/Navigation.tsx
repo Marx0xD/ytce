@@ -29,10 +29,10 @@ export function Navigation() {
       <Link href="/" className="nav-logo">
         <span className="nav-logo-mark" aria-hidden="true">
           <Image
-            src="/bg-removed-logo.png"
+            src="/icons/ytce-nav-logo.png"
             alt=""
-            width={56}
-            height={56}
+            width={96}
+            height={96}
             priority
           />
         </span>

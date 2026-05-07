@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   description:
     "Premium Ethiopian green coffee export from Addis Ababa, Ethiopia.",
   icons: {
-    icon: "/bg-removed-logo.png",
-    apple: "/bg-removed-logo.png",
+    icon: "/icons/ytce-icon.png",
+    apple: "/icons/ytce-icon.png",
   },
 };
 
@@ -23,6 +23,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <link
+          rel="preload"
+          as="image"
+          href="/images/optimized/left-hero-image.webp"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/images/optimized/right-hero-image.webp"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
